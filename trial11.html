@@ -1,17 +1,25 @@
 <html>
 <head>
+    <title>AAAAAHHHHHH</title>
     <style>
+
+        body{
+            font-family: sans-serif;
+        }
 
         #row-one .foreground {
             width: 30%;
+            margin: 10px;
         }
 
         #row-two .foreground {
             width: 20%;
+            margin-top: 10px;
         }
 
-        #row-three .wrapper{
+        #row-three .foreground{
             margin-top: 20px;
+            width: 290px;
         }
 
         .background{
@@ -25,10 +33,7 @@
 
         .foreground{
             background-color: #cccccc;
-        }
-
-        .inner {
-           margin: 10px;
+            display:inline-block;
         }
 
         .wrapper {
@@ -37,16 +42,12 @@
 
         .shortbox {
             height: 75px;
-            display: inline-block;
+     /*       display: inline-block;*/
         }
 
         .tallbox {
             height: 100px;
-            display: inline-block;
-        }
-
-        .bottom {
-            width: 290px;
+          /*  display: inline-block;*/
         }
 
         #rightmost{
@@ -73,12 +74,9 @@
 
         #supershort {
             height: 35px;
-            display: inline-block;
+           /* display: inline-block;*/
         }
-        #row-two-is-dumb{
-            margin-left: auto;
-            margin-right: auto;
-        }
+       
 
 
     </style>
@@ -86,29 +84,23 @@
 
 
 <body>
-<div class="background" id="row-one">
-    <div class="wrapper">
-        <div class="foreground tallbox inner"></div>
-        <div class="foreground tallbox inner"></div>
-        <div class="foreground tallbox inner"></div>
-    </div>
+<h1>AAAAAHHHHHH</h1>
+<div class="background wrapper" id="row-one">
+        <div class="foreground tallbox "></div>
+        <div class="foreground tallbox "></div>
+        <div class="foreground tallbox "></div>
 </div>
 
 <div class="background" id="row-two">
-    <div id ="row-two-is-dumb">
-         
         <div class="foreground tallbox" id="leftmost"></div> 
         <div class="foreground tallbox" id="secondright"></div>
         <div class="foreground shortbox" id="secondleft"></div>
         <div class="foreground shortbox" id="rightmost"></div>
-    </div>
 </div>
 
-<div class="background" id="row-three">
-    <div class="wrapper">
-        <div class="foreground bottom" id="supershort"></div>
-        <div class="foreground tallbox bottom"></div>
-    </div>
+<div class="background wrapper" id="row-three">
+        <div class="foreground" id="supershort"></div>
+        <div class="foreground tallbox"></div>
 </div>
 
 
