@@ -7,7 +7,7 @@
             margin: 10px;
         }
 
-        input, select { 
+       /* input, select { 
           display: inline-block;
           text-align: right;
         }
@@ -15,12 +15,11 @@
         input[type="submit"] {
             border-radius: 5px;
             background-color: red;
-        }
+        }*/
 
-        label {
+        form div label {
           display: inline-block;
           width: 160px;
-          margin-right: 10px;
         }
 
     </style>
@@ -36,8 +35,7 @@
         <label for="age">Age</label><input type="text" name="age"></input>
       </div>
        <div class="form-element">
-        <label for="favorite color">Favorite Color</label>
-        <select name="favorite color">
+        <label for="favorite color">Favorite Color</label><select name="favorite color">
             <option value="magenta">Magenta</option>
             <option value="green">Green</option>
             <option value="red">Red</option>
@@ -46,12 +44,10 @@
         </select>
       </div>
        <div class="form-element">
-        <label for="RadioMusic">Love Music</label>
-        <input type="radio" name = "RadioMusic" value="Hate Music"/>
+        <label for="RadioMusic">Love Music</label><input type="radio" name = "RadioMusic" value="Hate Music"/>
       </div>
        <div class="form-element">
-        <label for="RadioMusic">Hate Music</label>
-        <input type="radio" name = "RadioMusic" value="Hate Music"/>
+        <label for="RadioMusic">Hate Music</label><input type="radio" name = "RadioMusic" value="Hate Music"/>
       </div>
        <div class="form-element">
         <label for="raining">Is it raining?</label><input type="checkbox" value="raining"></input>
