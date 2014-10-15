@@ -7,7 +7,7 @@
         }
 
         #row-two .foreground {
-            width: 215px;
+            width: 20%;
         }
 
         #row-three .wrapper{
@@ -18,7 +18,7 @@
             background-color: #555555;
             height: 130px;
             margin-bottom: 10px;
-            width: 700px;
+            width: 100%;
             padding: 5px;
 
         }
@@ -51,33 +51,33 @@
 
         #rightmost{
        
-        margin-left: 685px;
-        background-color: red;
+        margin-left: 43%;
         position: absolute;
         }
 
         #secondright{
     
-        margin-left: 235px;
-        background-color: yellow;
+        margin-left: 22%;
         position: absolute;
         }
 
         #secondleft{
-        background-color: green;
-        margin-left: 10px;
+        margin-left: 1%;
         position:absolute;
         }
 
         #leftmost{
-        margin-left: 10px;
-        background-color: blue;
+        margin-left: 8%;
 
         }
 
         #supershort {
             height: 35px;
             display: inline-block;
+        }
+        #row-two-is-dumb{
+            margin-left: auto;
+            margin-right: auto;
         }
 
 
@@ -95,10 +95,13 @@
 </div>
 
 <div class="background" id="row-two">
-        <div class="foreground shortbox" id="rightmost"></div> 
+    <div id ="row-two-is-dumb">
+         
         <div class="foreground tallbox" id="leftmost"></div> 
         <div class="foreground tallbox" id="secondright"></div>
         <div class="foreground shortbox" id="secondleft"></div>
+        <div class="foreground shortbox" id="rightmost"></div>
+    </div>
 </div>
 
 <div class="background" id="row-three">
