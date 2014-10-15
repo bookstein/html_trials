@@ -1,0 +1,105 @@
+<html>
+<head>
+    <style>
+
+        #row-one .foreground {
+            width: 30%;
+        }
+
+        #row-two .foreground {
+            width: 215px;
+        }
+
+        .background{
+            background-color: #555555;
+            height: 130px;
+            margin-bottom: 10px;
+            width: 900px;
+
+        }
+
+        .foreground{
+            background-color: #cccccc;
+        }
+
+        .inner {
+           margin: 10px;
+        }
+
+        .wrapper {
+            text-align: center;
+        }
+
+        .shortbox {
+            height: 75px;
+            display: inline-block;
+        }
+
+        .tallbox {
+            height: 100px;
+            display: inline-block;
+        }
+
+        .bottom {
+            width: 290px;
+        }
+
+        #rightmost{
+       
+        margin-left: 685px;
+        background-color: red;
+        position: absolute;
+        }
+
+        #secondright{
+    
+        margin-left: 235px;
+        background-color: yellow;
+        position: absolute;
+        }
+
+        #secondleft{
+        background-color: green;
+        margin-left: 10px;
+        position:absolute;
+        }
+
+        #leftmost{
+        margin-left: 10px;
+        background-color: blue;
+
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+<div class="background" id="row-one">
+    <div class="wrapper">
+        <div class="foreground tallbox inner"></div>
+        <div class="foreground tallbox inner"></div>
+        <div class="foreground tallbox inner"></div>
+    </div>
+</div>
+
+<div class="background" id="row-two">
+        <div class="foreground shortbox" id="rightmost"></div> 
+        <div class="foreground tallbox" id="leftmost"></div> 
+        <div class="foreground tallbox" id="secondright"></div>
+        <div class="foreground shortbox" id="secondleft"></div>
+</div>
+
+<div id="row-two">
+</div>
+
+<div id="row-three">
+</div>
+
+
+
+
+
+</body>
+</html>
